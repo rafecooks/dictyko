@@ -15,5 +15,11 @@ sftp-config.json
 *.orig
 *.bak
 
+# Ignore user generated log and temp files
+*.csv
+log.txt
+temp.gb
+*outfiles/
+
 # Ignore virtualenv folder
 venv
