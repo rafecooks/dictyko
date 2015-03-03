@@ -1,0 +1,19 @@
+# Ignore temporary editor files.
+*.swp
+*~
+
+# Ignore project files
+*.pyproj
+*.sublime-project
+*.sublime-workspace
+sftp-config.json
+
+# Ignore dot files.
+.*
+
+# Ignore backup files.
+*.orig
+*.bak
+
+# Ignore virtualenv folder
+venv
