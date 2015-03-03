@@ -1,0 +1,4 @@
+Cython==0.22
+biopython==1.65
+primer3-py==0.4.1
+validate-email==1.2
