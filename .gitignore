@@ -19,7 +19,7 @@ sftp-config.json
 *.csv
 log.txt
 temp.gb
-*outfiles/
+results*
 
 # Ignore virtualenv folder
 venv

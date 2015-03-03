@@ -496,7 +496,7 @@ p2o.write('Primer,Seq,GSP_tm,Subclone_RE,TypeII_RE,amplicon_length\n')
 for gene in genelist:
     gene = gene.translate(None,"\t\n\r") #remove end of line crap
 
-    newdir = gene + "_outfiles"
+    newdir = "results_{}".format(gene)
     os.mkdir(newdir)
 
     gbrecord = locus_maps(gene, flank) ###returns outfile name to use in primer stuff
